@@ -21,10 +21,10 @@
                         <img src="img/logoMobile.png" alt="logo maktub">
                     </picture>
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones" aria-expanded="true">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse miMenu">
+              <div class="collapse navbar-collapse miMenu" id="opciones">
                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                       <a class="nav-link active" href="index.htm">Inicio</a>
@@ -50,18 +50,19 @@
         <!-- BANNER -->
        <div class="container-fluid">
         <picture>
+            <source media="(min-width: 1000px)" srcset="img/bannerDesktoplg.png">
             <source media="(min-width: 801px)" srcset="img/bannerDesktop.png">  
             <source media="(min-width: 481px)" srcset="img/bannerTablet.png">
             <img src="img/bannerMobile.png" alt="bannerdescuento" class="img-fluid">
         </picture>
        </div>
        <!-- pastillas info -->
-       <section class="container-fluid bgPastillas mt-2">
-        <section>
+       <section class="container-fluid bgPastillas pt-2 mb-2">
+        <section class="container">
         <ul class="row list-unstyled">
             <!-- cambio y devol -->
-            <li class="col-6 col-lg-3 h-auto ">
-              <div class="shadow roundad-3 bgPastillas2 p-3">
+            <li class="col-sm-12 col-md-6 col-lg-3 h-auto mb-3">
+              <div class="shadow roundad-3 bgPastillas2 px-3 py-4">
                 <i class="bi h1 bi-arrow-repeat"></i>
                 <h2 class="h5">Cambio y devolución</h2>
                 <p class="">
@@ -70,8 +71,8 @@
               </div>
             </li>
             <!-- app -->
-            <li class="col-6 col-lg-3 h-auto ">
-              <div class="shadow roundad-3 bgPastillas2 p-3">
+            <li class="col-sm-12 col-md-6 col-lg-3 h-auto mb-3">
+              <div class="shadow roundad-3 bgPastillas2 px-3 py-4">
                 <i class="bi h1 bi-phone"></i>
                 <h2 class="h5">Descarga nuestra app</h2>
                 <p class="">
@@ -80,8 +81,8 @@
               </div>
             </li>
             <!-- pago-->
-            <li class="col-6 col-lg-3 h-auto ">
-              <div class="shadow roundad-3 bgPastillas2 p-3 mt-sm-1 mt-md-2">
+            <li class="col-sm-12 col-md-6 col-lg-3 h-auto mb-3">
+              <div class="shadow roundad-3 bgPastillas2 px-3 py-4">
                 <i class="bi h1 bi-wallet"></i>
                 
                 <h2 class="h5">Múltiples formas de pago</h2>
@@ -91,8 +92,8 @@
               </div>
             </li>
               <!-- financiacion-->
-            <li class="col-6 col-lg-3 h-auto ">
-              <div class="shadow  roundad-3 bgPastillas2 p-3 mt-2">
+            <li class="col-sm-12 col-md-6 col-lg-3 h-auto mb-3">
+              <div class="shadow  roundad-3 bgPastillas2 px-3 py-4">
                 <i class="bi h1 bi-credit-card"></i>
                 <h2 class="h5">Financiación</h2>
                 <p class="">
